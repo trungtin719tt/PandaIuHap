@@ -23,31 +23,7 @@
 <div id="mainDiv">
 	<div id="content">
 		<div id="code">
-			<span class="comments">/**</span><br />
-			<span class="space"/><span class="comments">*2018—05-12,</span><br />
-			<span class="space"/><span class="comments">*2018-10-20.</span><br />
-			<span class="space"/><span class="comments">*/</span><br />
-
-			<span class="keyword">Hấp</span> à, <br />
-			Từ khi đó, mỗi giây, mỗi phút của <span class="keyword">Panda</span> <br />
-			Là mỗi giây, mỗi phút <span class="keyword">Panda</span> nghĩ về <span class="keyword">Hấp</span>. <br />
-			Trái tim này <br />
-			Nhỏ bé, <br />
-			Nhưng tình cảm này <br />
-			<span class="keyword">Panda</span> không biết thể hiện sao cho hết được <br />
-			<span class="keyword">Panda</span> muốn nói nhiều lắm <br />
-			Muốn cho <span class="keyword">Hấp</span> hiểu được hết lòng của <span class="keyword">Panda</span><br />
-			Nhưng<br />
-			Có lẽ, có nói vậy<br />
-			Hay là nhiều hơn nữa<br />
-			Thì tốt hơn là<br />
-			<span class="keyword">Panda</span> phải hành động.<br />
-			<span class="keyword">Hấp</span> là của <span class="keyword">Panda</span>, và <span class="keyword">Panda</span> sẽ làm mọi thứ để giữ gìn và nâng niu nó.<br />
-			Hãy luôn tin tưởng ở <span class="keyword">Panda</span> nha <span class="keyword">Hấp</span>.<br />
-			<br />
-			Và còn nữa <br />
-			<span class="keyword">Panda</span> muốn nói là,<br />
-			<span class="keyword">Panda</span> yêu <span class="keyword">Hấp</span> nhiều lắm.<br />
+			<span class="keyword">Chan xin lỗi :(</span><br />
 
 
 			
@@ -56,13 +32,10 @@
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					Yêu hấp, từ giây phút đó cho tới mãi về sau.
 					<br/>
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
-					Panda yêu hấp nhiều lắm.<br/>
-					<div class="signature">- Panda của Hấp</div>
 				</div>
 			</div>
 		</div>
@@ -89,14 +62,9 @@ if (!document.createElement('canvas').getContext) {
 	$("#copyright").css("bottom", "10px");
 	document.execCommand("stop");
 } else {
-	setTimeout(function () {
-		startHeartAnimation();
-	}, 5000);
+	
 
 	timeElapse(together);
-	setInterval(function () {
-		timeElapse(together);
-	}, 500);
 
 	adjustCodePosition();
 	$("#code").typewriter();
